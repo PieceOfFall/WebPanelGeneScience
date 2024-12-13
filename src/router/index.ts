@@ -9,6 +9,10 @@ const router = createRouter({
       redirect: '/device',
     },
     {
+      path: '/test',
+      component: () => import('@/views/TestView.vue'),
+    },
+    {
       path: '/device',
       name: 'device',
       component: () => import('@/views/DeviceView.vue'),
