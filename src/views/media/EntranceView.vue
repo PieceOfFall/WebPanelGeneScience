@@ -1,10 +1,9 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
     <div>
-        Home
+        Entrance
     </div>
 </template>
 
